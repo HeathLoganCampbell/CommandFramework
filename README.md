@@ -1,7 +1,5 @@
 I created a very lightweight annotation based command system that works similar to Bukkit's events system. It removes the necessity to add the command to your plugin.yml but will still allow you to set descriptions and usages through code.
 
-This framework is now part of a bigger project called the MinezRC Framework. It is a framework that can be shaded into plugins to allow for all in one features from JSON messages to SignInput GUIs to packet receiving/sending. It can be found here: https://git.minezrc.net/minezrc-devs/framework
-
 Example:
 ```java
     public class DemoPlugin extends JavaPlugin {
